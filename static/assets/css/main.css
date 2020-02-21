@@ -73,7 +73,7 @@ a {
     -ms-transition: color 0.2s ease, text-shadow 0.2s ease;
     transition: color 0.2s ease, text-shadow 0.2s ease; }
   a:hover {
-    color: #ff7496;
+    color: #77dfd8;
     text-decoration: underline; }
 
 strong, b {
@@ -95,7 +95,8 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 1.85em;
-  letter-spacing: 0.22em;
+  font-weight: 100;
+  font-stretch: expanded;
   margin: 0 0 0.525em 0; }
   h1.name {
     text-transform: uppercase; }
@@ -178,7 +179,7 @@ textarea {
   input[type="tel"]:focus,
   select:focus,
   textarea:focus {
-    border-color: #ff7496; }
+    border-color: #77dfd8; }
 
 .select-wrapper {
   text-decoration: none;
@@ -261,11 +262,11 @@ input[type="radio"] {
       width: 1.65em; }
   input[type="checkbox"]:checked + label:before,
   input[type="radio"]:checked + label:before {
-    color: #ff7496;
+    color: #77dfd8;
     content: '\f00c'; }
   input[type="checkbox"]:focus + label:before,
   input[type="radio"]:focus + label:before {
-    border-color: #ff7496; }
+    border-color: #77dfd8; }
 
 input[type="checkbox"] + label:before {
   border-radius: 4px; }
@@ -363,7 +364,7 @@ ul {
           color: #ffffff;
           text-shadow: 1.25px 0px 0px #c8cccf, -1.25px 0px 0px #c8cccf, 0px 1.25px 0px #c8cccf, 0px -1.25px 0px #c8cccf; }
         ul.icons li a:hover:before {
-          text-shadow: 1.25px 0px 0px #ff7496, -1.25px 0px 0px #ff7496, 0px 1.25px 0px #ff7496, 0px -1.25px 0px #ff7496; }
+          text-shadow: 1.25px 0px 0px #77dfd8, -1.25px 0px 0px #77dfd8, 0px 1.25px 0px #77dfd8, 0px -1.25px 0px #77dfd8; }
         ul.icons li a:before {
           position: absolute;
           top: 0;
@@ -375,7 +376,7 @@ ul {
           text-align: center;
           text-indent: 0; }
         ul.icons li a:hover {
-          border-color: #ff7496; }
+          border-color: #77dfd8; }
     @media screen and (max-width: 480px) {
       ul.icons li a:before {
         font-size: 1.5rem; } }
@@ -429,8 +430,8 @@ button,
   input[type="button"]:hover,
   button:hover,
   .button:hover {
-    border-color: #ff7496;
-    color: #ff7496 !important; }
+    border-color: #77dfd8;
+    color: #77dfd8 !important; }
   input[type="submit"].icon,
   input[type="reset"].icon,
   input[type="button"].icon,
