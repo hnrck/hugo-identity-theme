@@ -6,10 +6,10 @@ body {
   min-height:100%;
   margin: 0;
   background-size: auto;
-  background-color: #ffffff;
-  background-image: url("images/overlay.png"), -moz-linear-gradient(60deg, rgba(230, 140, 125, 0.5) 20%, rgba(0, 203, 230, 0.5));
-  background-image: url("images/overlay.png"), -webkit-linear-gradient(60deg, rgba(230, 140, 125, 0.5) 20%, rgba(0, 203, 230, 0.5));
-  background-image: url("images/overlay.png"), -ms-linear-gradient(60deg, rgba(230, 140, 125, 0.5) 20%, rgba(0, 203, 230, 0.5));
-  background-image: url("images/overlay.png"), linear-gradient(60deg, rgba(230, 140, 125, 0.5) 20%, rgba(0, 203, 230, 0.5));
+  background: rgb(205,238,105);
+  background: -moz-linear-gradient(135deg, rgba(205,238,105,0.5) 5%, rgba(119,223,216,0.5) 30%, rgba(239,255,0,0.5) 90%);
+  background: -webkit-linear-gradient(135deg, rgba(205,238,105,0.5) 5%, rgba(119,223,216,0.5) 30%, rgba(239,255,0,0.5) 90%);
+  background: linear-gradient(135deg, rgba(205,238,105,0.5) 5%, rgba(119,223,216,0.5) 30%, rgba(239,255,0,0.5) 90%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#cdee69",endColorstr="#efff00",GradientType=1);
 }
 
