@@ -15,7 +15,7 @@ body {
             rgba(192, 82, 146, 0.85) 40%,
             rgba(163, 91, 174, 0.85) 60%,
             rgba(97, 116, 200, 0.85) 90%),
-    url("../../images/backgrounds/aircraft.jpeg");
+    url("../../images/backgrounds/seoul.jpeg");
 
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#cdee69", endColorstr="#efff00", GradientType=1);
 }
