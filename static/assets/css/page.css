@@ -7,30 +7,16 @@ body {
     margin: 0;
     background-size: auto;
     background: rgb(255, 255, 255);
-    background: -moz-linear-gradient(
+    background: url("images/overlay.png"),
+    linear-gradient(
             150deg,
-            rgb(200, 88, 73) 1%,
-            rgb(196, 82, 124) 30%,
-            rgb(192, 82, 146) 40%,
-            rgb(163, 91, 174) 60%,
-            rgb(97, 116, 200) 90%
-    );
-    background: -webkit-linear-gradient(
-            150deg,
-            rgb(200, 88, 73) 1%,
-            rgb(196, 82, 124) 30%,
-            rgb(192, 82, 146) 40%,
-            rgb(163, 91, 174) 60%,
-            rgb(97, 116, 200) 90%
-    );
-    background: linear-gradient(
-            150deg,
-            rgb(200, 88, 73) 1%,
-            rgb(196, 82, 124) 30%,
-            rgb(192, 82, 146) 40%,
-            rgb(163, 91, 174) 60%,
-            rgb(97, 116, 200) 90%
-    );
+            rgba(200, 88, 73, 0.85) 1%,
+            rgba(196, 82, 124, 0.85) 30%,
+            rgba(192, 82, 146, 0.85) 40%,
+            rgba(163, 91, 174, 0.85) 60%,
+            rgba(97, 116, 200, 0.85) 90%),
+    url("../../images/backgrounds/aircraft.jpeg");
+
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#cdee69", endColorstr="#efff00", GradientType=1);
 }
 
